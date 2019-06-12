@@ -7,8 +7,12 @@ Faster implementation of multiple object tracking by leveraging multiple core
 3. argparser
 
 ### Execution
-Use following command for help
-python multi_pro_tracking.py -h
 
+Use following command for help
+```
+python multi_pro_tracking.py -h
+```
 or simply 
+```
 python multi_pro_tracking.py
+```
