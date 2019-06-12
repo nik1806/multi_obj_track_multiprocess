@@ -1,5 +1,6 @@
 import cv2
 from random import randint
+import multiprocessing
 
 trackerTypes = ['BOOSTING', 'MIL', 'KCF','TLD', 'MEDIANFLOW', 'GOTURN', 'MOSSE', 'CSRT']
 
@@ -7,7 +8,7 @@ def createTracker():
     tracker = cv2.TrackerKCF_create() # creating instance of tracker
     return tracker
 
-video_path = "run.mp4"
+video_path = "videos/nascar.mp4"
 
 cap = cv2.VideoCapture(video_path) # creating video reader
 
