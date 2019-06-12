@@ -1,3 +1,8 @@
+"""
+    Intro: This project targets utilizing power of multicore cpu to speed up the multi object detection based on in-built opencv functions.
+    Problem: With each new object tracking task, the speed decreases significantly
+    Improvement: Using separate process for each individual tracker and clearing the closed process.
+"""
 import cv2
 from random import randint
 import multiprocessing
